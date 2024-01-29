@@ -1,0 +1,13 @@
+!noci
+data/System/JQLargeTableContrib.txt 0644
+lib/Foswiki/Contrib/JQLargeTableContrib/Config.spec 0644
+lib/Foswiki/Contrib/JQLargeTableContrib/Core.pm 0644
+lib/Foswiki/Contrib/JQLargeTableContrib/DEPENDENCIES 0644
+lib/Foswiki/Contrib/JQLargeTableContrib.pm 0644
+pub/System/JQLargeTableContrib/largetable.css 0644
+pub/System/JQLargeTableContrib/largetable.css.gz 0644
+pub/System/JQLargeTableContrib/largetable.js 0644
+pub/System/JQLargeTableContrib/largetable.js.gz 0644
+pub/System/JQLargeTableContrib/largetable.uncompressed.css 0644
+pub/System/JQLargeTableContrib/largetable.uncompressed.js 0644
+pub/System/JQLargeTableContrib/Makefile 0644

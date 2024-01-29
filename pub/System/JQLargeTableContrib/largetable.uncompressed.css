@@ -1,0 +1,64 @@
+.jqLargeTableContainer {
+  position:relative;
+}
+.jqLargeTable {
+  overflow:auto;
+}
+.jqLargeTableContainer.fullscreen  {
+  position:absolute;
+  overflow:auto;
+  top:0;
+  left:0;
+  background-color: var(--color-background, #fff);
+  z-index:99999;
+}
+.jqLargeTableContainer.fullscreen,
+.jqLargeTableContainer.fullscreen .jqLargeTable {
+  width:100% !important;
+  height:100% !important;
+}
+.jqLargeTableContainer.fullscreen .jqLargeTable > table {
+  width:100%;
+}
+.jqLargeTableFixedHtml {
+  position:fixed;
+  width:100%;
+  height:100%;
+  overflow:auto !important; 
+}
+.jqLargeTableButton {
+  display:none;
+  position:absolute;
+  top:5px;
+  right:5px;
+  z-index:1;
+  opacity:0;
+  transition: opacity 250ms;
+}
+.jqLargeTableContainer.enabled .jqLargeTableButton {
+  display:inline-block;
+}
+.jqLargeTableContainer.over .jqLargeTableButton {
+  opacity:1;
+}
+.jqLargeTableContainer.fullscreen .jqLargeTableButton {
+  position:fixed;
+  top:5px;
+  right:20px;
+}
+table.jqLargeTable.sticky,
+.jqLargeTable table.sticky {
+  position:fixed;
+  table-layout:fixed;
+  top:0;
+  margin:0;
+}
+.jqLargeTableStickyHeader thead > tr > th {
+  position:sticky;
+  top:0;
+}
+.jqLargeTableStickyHeader .jqLargeTableButton {
+  position:sticky;
+  margin-bottom:-30px;
+  float:right;
+}
