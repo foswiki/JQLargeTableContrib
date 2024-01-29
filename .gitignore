@@ -1,10 +1,10 @@
-JQLargeTableContrib_installer
-JQLargeTableContrib_installer.pl
-JQLargeTableContrib.md5
-JQLargeTableContrib.sha1
-JQLargeTableContrib.tgz
-JQLargeTableContrib.txt
-JQLargeTableContrib.zip
+/JQLargeTableContrib_installer
+/JQLargeTableContrib_installer.pl
+/JQLargeTableContrib.md5
+/JQLargeTableContrib.sha1
+/JQLargeTableContrib.tgz
+/JQLargeTableContrib.txt
+/JQLargeTableContrib.zip
 pub/System/JQLargeTableContrib/*.gz
 pub/System/JQLargeTableContrib/largetable.css
 pub/System/JQLargeTableContrib/largetable.js

@@ -1,0 +1,77 @@
+%META:TOPICINFO{author="ProjectContributor" date="1457496285" format="1.1" version="1"}%
+---+!! %TOPIC%
+%$SHORTDESCRIPTION%
+
+%TOC%
+
+---++ Description
+
+Large tables are difficult to display in browsers if they extend the available
+space either constraint by the viewport or by additional elements adjacent to
+the table. It's alright for browsers to display just one thing on the screen
+and then horizontal and/or vertical scrollbars are displayed by the window.
+These scrollbars accomplish the ideal balance between trimming large content in
+the viewport and requiring the user to scroll in two dimensions.
+
+This plugin offers to zoom on on a table if the user decides to focus on a
+specifically large table. Clicking on a zoom-in icon will cause it to expand to
+fill the entire browser's viewport, displaying its native scrollbars. You can
+return to the initial page where the table is displayed in its initial
+condensed state by clicking on the zoom-out button.
+
+---++ Usage
+
+To be augmented with the large-table interface, tables must be placed inside
+=.jqLargeTable= HTML container, like this:
+
+<verbatim>
+%JQREQUIRE{"LargeTable"}%
+
+<div class="jqLargeTable" data-sticky-header="true" data-height="400" data-scroll-to-row="20" data-scroll-to-col="20">
+| *header* | *header* | *header* |
+| data | data | data |
+| data | data | data |
+| data | data | data |
+</div>
+</verbatim>
+
+In this example additional parameter are provided as HTML5 data attributes. Above parameters will 
+
+   * restrict the height of the container element to 400px thus enforcing vertical scrollbars in normal mode if the number of rows exceed the
+     given height,
+   * focus the table within the viewport to row 20, column 20,
+   * stick table headers to the top in zoomed mode and
+   * only displays the zoom-in button when the contained table exceeds thhe available space.
+
+Available parameteres are:
+
+| *Name* | *Description* | *Default* |
+| data-sticky-header | in large view html headers stick to the top of the  viewport | false |
+| data-height | height of the html container adding inline scrollbars | null |
+| data-alway-on | allways display the zoom-in/out buttons even when the contained table isn't exceeding the available space | false |
+| data-scroll-to-row | scroll the container to this row of the table | |
+| data-scroll-to-col | scroll the container to this column of the table | |
+
+---++ Installation Instructions
+
+%$INSTALL_INSTRUCTIONS%
+
+---++ Dependencies
+%$DEPENDENCIES%
+
+---++ Change History
+
+%TABLE{columnwidths="7em" tablewidth="100%"}%
+|  29 Jan 2024 | initial release |
+
+%META:FORM{name="PackageForm"}%
+%META:FIELD{name="Author" title="Author" value="Michael Daum"}%
+%META:FIELD{name="Version" title="Version" value="%$VERSION%"}%
+%META:FIELD{name="Release" title="Release" value="%$RELEASE%"}%
+%META:FIELD{name="Copyright" value="2018-2024, Michael Daum, All Rights Reserved"}%
+%META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
+%META:FIELD{name="License" value="GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]])"}%
+%META:FIELD{name="Repository" value="https://github.com/foswiki/%$ROOTMODULE%"}%
+%META:FIELD{name="Home" value="http://foswiki.org/Extensions/%$ROOTMODULE%"}%
+%META:FIELD{name="Support" value="http://foswiki.org/Support/%$ROOTMODULE%"}%
+%META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%$ROOTMODULE%"}%
