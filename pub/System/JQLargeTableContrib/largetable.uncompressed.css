@@ -1,5 +1,6 @@
 .jqLargeTableContainer {
   position:relative;
+  overflow:hidden;
 }
 .jqLargeTable {
   overflow:auto;

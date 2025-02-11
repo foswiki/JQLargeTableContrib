@@ -1,7 +1,7 @@
 /*
  * jQuery LargeTable plugin 1.00
  *
- * Copyright (c) 2018-2024 Michael Daum http://michaeldaumconsulting.com
+ * Copyright (c) 2018-2025 Michael Daum http://michaeldaumconsulting.com
  *
  * Licensed under the GPL license http://www.gnu.org/licenses/gpl.html
  *

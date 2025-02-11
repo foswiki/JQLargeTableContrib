@@ -1,6 +1,6 @@
 # Extension for Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 #
-# JQLargeTableContrib is Copyright (C) 2018-2024 Michael Daum http://michaeldaumconsulting.com
+# JQLargeTableContrib is Copyright (C) 2018-2025 Michael Daum http://michaeldaumconsulting.com
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -18,7 +18,7 @@ package Foswiki::Contrib::JQLargeTableContrib;
 use strict;
 use warnings;
 
-our $VERSION = '1.00';
+our $VERSION = '1.10';
 our $RELEASE = '%$RELEASE%';
 our $SHORTDESCRIPTION = 'Toggle fullscreen display of large tables';
 our $LICENSECODE = '%$LICENSECODE%';

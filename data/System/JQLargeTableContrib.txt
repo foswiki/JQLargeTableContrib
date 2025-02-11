@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="ProjectContributor" date="1457496285" format="1.1" version="1"}%
+%META:TOPICINFO{author="ProjectContributor" date="1739283483" format="1.1" version="1"}%
 ---+!! %TOPIC%
 %$SHORTDESCRIPTION%
 
@@ -62,13 +62,14 @@ Available parameteres are:
 ---++ Change History
 
 %TABLE{columnwidths="7em" tablewidth="100%"}%
+|  11 Feb 2025 | large table container must hide its overflow |
 |  29 Jan 2024 | initial release |
 
 %META:FORM{name="PackageForm"}%
 %META:FIELD{name="Author" title="Author" value="Michael Daum"}%
 %META:FIELD{name="Version" title="Version" value="%$VERSION%"}%
 %META:FIELD{name="Release" title="Release" value="%$RELEASE%"}%
-%META:FIELD{name="Copyright" value="2018-2024, Michael Daum, All Rights Reserved"}%
+%META:FIELD{name="Copyright" value="2018-2025, Michael Daum, All Rights Reserved"}%
 %META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
 %META:FIELD{name="License" value="GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]])"}%
 %META:FIELD{name="Repository" value="https://github.com/foswiki/%$ROOTMODULE%"}%
