@@ -18,7 +18,7 @@ package Foswiki::Contrib::JQLargeTableContrib;
 use strict;
 use warnings;
 
-our $VERSION = '1.10';
+our $VERSION = '1.11';
 our $RELEASE = '%$RELEASE%';
 our $SHORTDESCRIPTION = 'Toggle fullscreen display of large tables';
 our $LICENSECODE = '%$LICENSECODE%';
